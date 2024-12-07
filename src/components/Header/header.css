@@ -1,9 +1,36 @@
-.header{}
-.header__header{}
-.header__logo{}
-.header__buttons{}
-.header__already{}
-.header__test{}
+.header{
+    background-color: #F9DFDA;
+    color: #686868;
+    max-width: 1920px;
+    width: 100%;
+}
+.header__header{
+    margin: 0px;
+    background-color: #FFE6E1;
+    display: flex;
+    justify-content: space-between;
+    padding: 23px 220px 23px 105px;
+    max-width: 1595px;
+    width: 100%;
+}
+.header__logo{
+    max-width: 116px;
+    width: 100%;
+}
+.header__buttons{
+    display: flex;
+    max-width: 390px;
+    justify-content: space-between;
+}
+.header__already{
+    font-size: 22px;
+    text-decoration: underline;
+}
+.header__test{
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px, solid, #727E72;
+    border-radius: 50px;
+}
 .header__content{}
 .header__pretitle{}
 .header__title{}

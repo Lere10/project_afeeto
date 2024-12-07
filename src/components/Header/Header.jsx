@@ -1,11 +1,13 @@
 import React from "react";
+import "./header.css";
 import headerImg from "../../../images/header__img.png";
+import headerLogo from "../../../images/header__logo.png";
 
 export default function Header(){
     return(
         <header className="header">
             <section className="header__header">
-                <img className="header__logo" />
+                <img className="header__logo" src={headerLogo} alt="Logo Afeeto" />
                 <div className="header__buttons">
                     <a className="header__already">
                         Já tenho conta
@@ -29,7 +31,6 @@ export default function Header(){
                     Comece agora
                 </button>
                 <img src={headerImg} className="header__img" />
-                
             </section>
         </header>
     )
