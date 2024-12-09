@@ -1,0 +1,34 @@
+.apoio{
+    background-color: #ffff;
+}
+.apoio__content{
+    margin: 132px auto;
+    max-width: 1588px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+}
+.apoio__img{
+    
+    max-width: 496px;
+    width: 100%;
+    max-height: 496px;
+    align-self: center;
+}
+.apoio__content-text{
+    align-self: center;
+    max-width: 955px;
+    padding: 0px;
+    margin: 0px;
+}
+.apoio__title{
+    padding: 0px;
+    margin: 0px 0px 41px 0px;
+    font-size: 62px;
+    line-height: 1.2;
+    max-width: 586px;
+    font-weight: bold;
+}
+.apoio__subtitle{
+    font-size: 36px;
+}

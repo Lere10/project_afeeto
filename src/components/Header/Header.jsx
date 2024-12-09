@@ -15,21 +15,24 @@ export default function Header(){
                     <button className="header__test">Teste grátis</button>
                 </div>
             </section>
-            <section className="header__content">
-                <p className="header__pretitle">
-                    Que bom ter você aqui
-                </p>
-                <h1 className="header__title">
-                    Transforme seu bem-estar
-                    com Afeeto.
-                </h1>
-                <p className="header__subtitle">
-                    Descubra uma nova forma de cuidar da sua saúde mental com nosso diário emocional.
-                    Converse com IAs psicólogas a qualquer momento que precisar.
-                </p>
-                <button className="header__mainButton">
-                    Comece agora
-                </button>
+            <section className="header__main">
+                <div className="header__content">
+                  <p className="header__pretitle">
+                        Que bom ter você aqui
+                  </p>
+                    <h1 className="header__title">
+                        Transforme seu bem-estar
+                        com Afeeto.
+                    </h1>
+                    <p className="header__subtitle">
+                       Descubra uma nova forma de cuidar da sua saúde mental com nosso diário emocional.
+                        Converse com IAs psicólogas a qualquer momento que precisar.
+                    </p>
+                    <button className="header__mainButton">
+                        Comece agora
+                    </button>
+                
+                </div>
                 <img src={headerImg} className="header__img" />
             </section>
         </header>
