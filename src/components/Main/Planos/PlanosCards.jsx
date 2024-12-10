@@ -12,20 +12,23 @@ export default function PlanCard (props){
                 <h3 className="planos__card-title">
                     {title}
                 </h3>
-                <p>
+                <p className="planos__card-price">
                     {price}
                 </p>
                 <img className="planos__line" src={line} alt="tiny green line with a star" />
-                <ul className="planos__benefits">
-                    {benefits.map((benefit, index)=>(
-                        <li className="planos__benefit" key={index} style={{ listStyleImage: `url(${sparkle})`}}>
-                            {benefit}
-                        </li>
-                    ))}
-                </ul>
-                <button className="planos__button">
-                    Obter plano
-                </button>
+                <div className="planos__wrapper">
+                    <ul className="planos__benefits">
+                      {benefits.map((benefit, index)=>(
+                            <li className="planos__benefit" key={index} style={{ listStyleImage: `url(${sparkle})`}}>
+                                {benefit}
+                            </li>
+                        ))}
+                    </ul>
+                    <button className="planos__button">
+                        Obter plano
+                    </button>
+                </div>
+                
             </div>
         </li>
     )
