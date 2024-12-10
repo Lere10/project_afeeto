@@ -1,5 +1,7 @@
 .relat{
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 .relat__header{
     display: flex;
@@ -78,4 +80,11 @@
     z-index: -1;
     top: 8px;
     left: 10px;
+}
+.relat__footer-line{
+    max-height: 35px;
+    max-width: 841px;
+    width: 100%;
+    align-self: flex-end;
+    margin: 96px 9% 79px auto;
 }

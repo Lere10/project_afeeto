@@ -1,5 +1,6 @@
 import React from "react";
 import headLineImg from "../../../../images/relat__lineHead.png";
+import footerLineImg from "../../../../images/relat__linefooter.png";
 import "./relat.css";
 import RelatCard from "./RelatCards.jsx";
 
@@ -41,6 +42,7 @@ const relatInfos = [
                     <RelatCard props={relat} key={index}/>
                 ))}
             </ul>
+            <img className="relat__footer-line" src={footerLineImg}/>
         </section>
     );
 }

@@ -8,8 +8,8 @@ export default function Main(){
     return (
         <main className="main">
             <Apoio/>
-            <Planos/>
             <Relatorios/>
+            <Planos/>
         </main>
         
     )
