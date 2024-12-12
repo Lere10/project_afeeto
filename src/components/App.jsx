@@ -1,7 +1,6 @@
-import { useState } from 'react'
 import Main from './Main/Main.jsx'
 import Header from './Header/Header.jsx'
-import Footer from './Footer/Footer.jsx';
+import Footer from './Footer/Footer.jsx'
 
 function App() {
 
